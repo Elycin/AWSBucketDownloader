@@ -28,6 +28,45 @@ namespace AWSBucketDownloader
                 case "us-west-2":
                     return Amazon.RegionEndpoint.USWest2;
 
+                case "ap-northeast-1":
+                    return Amazon.RegionEndpoint.APNortheast1;
+
+                case "ap-northeast-2":
+                    return Amazon.RegionEndpoint.APNortheast2;
+
+                case "ap-south-1":
+                    return Amazon.RegionEndpoint.APSouth1;
+
+                case "ap-southeast-1":
+                    return Amazon.RegionEndpoint.APSoutheast1;
+
+                case "ap-southeast-2":
+                    return Amazon.RegionEndpoint.APSoutheast2;
+
+                case "ca-central-1":
+                    return Amazon.RegionEndpoint.CACentral1;
+
+                case "cn-north-1":
+                    return Amazon.RegionEndpoint.CNNorth1;
+
+                case "cn-northwest-1":
+                    return Amazon.RegionEndpoint.CNNorthWest1;
+
+                case "eu-central-1":
+                    return Amazon.RegionEndpoint.EUCentral1;
+
+                case "eu-west-1":
+                    return Amazon.RegionEndpoint.EUWest1;
+
+                case "eu-west-2":
+                    return Amazon.RegionEndpoint.EUWest2;
+
+                case "eu-west-3":
+                    return Amazon.RegionEndpoint.EUWest3;
+
+                case "sa-east-1":
+                    return Amazon.RegionEndpoint.SAEast1;
+
                 default:
                     Console.WriteLine("Invalid AWS Region specified.");
                     Console.ReadLine();
